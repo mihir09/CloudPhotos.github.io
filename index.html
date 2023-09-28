@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photos</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div id="main-container">
+        <div class="header">
+            Cloud Photos
+        </div>
+        <div id="uploader">
+            <label for="input-file" id="drop-box">
+                <input id="input-file" type="file" accept="image/*" hidden>
+                <div>
+                    <img width="100px" height="100px" src="upload-cloud-icon.svg" />
+                    <p>Drag and Drop to upload Images</p>
+                </div>
+            </label>
+        </div>
+    </div>
+    <div class="container">
+        <div id="image-container"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
